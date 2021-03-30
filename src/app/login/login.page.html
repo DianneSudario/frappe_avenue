@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <center><ion-subtitle img src="assets/ionic.jpg"> SnackHub - Tambayan, Meryenda atbp. </ion-subtitle></center>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/snackhub.PNG" alt="homepage">
+    </ion-card-header>
+  </ion-card>
+
+  <br>
+  <center><ion-card-subtitle>LOGIN YOUR ACCOUNT</ion-card-subtitle> </center>
+  <br>
+
+  <ion-card>
+  <ion-item>
+    <ion-label position="floating"> Username </ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating"> Password </ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+  </ion-card>
+  <br>
+
+ <center> <ion-button (click)="logMeIn()"> Login </ion-button>
+  <ion-button (click)="regMeIn()"> Register </ion-button></center>
+</ion-content>
